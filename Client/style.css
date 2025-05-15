@@ -1,0 +1,92 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: #1a002a;
+    /*  viola molto scuro */
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+#messages {
+    font-family: 'Arial', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    overflow-y: scroll;
+    background-color: #2a0044;
+    scrollbar-width: thin;
+    scrollbar-color: #c084fc #1a002a;
+    border-radius: 10px 10px 0 0;
+    flex: 1;
+    padding-bottom: 150px;
+}
+
+#messages::-webkit-scrollbar {
+    width: 8px;
+}
+
+#messages::-webkit-scrollbar-thumb {
+    background-color: #c084fc;
+    /* viola acceso */
+    border-radius: 4px;
+}
+
+#form {
+    display: flex;
+    padding: 16px;
+    background-color: #3b0078;
+    /* viola medio acceso */
+    border-top: 1px solid #8f00ff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(192, 132, 252, 0.3);
+}
+
+#input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6a00cc;
+    /* viola neon */
+    color: #ffffff;
+    font-family: 'Arial', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+#input::placeholder {
+    color: #e0b3ff;
+}
+
+#input:focus {
+    background-color: #7a1fff;
+}
+
+#send {
+    display: none;
+    /* rimosso */
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+h2 {
+    font-size: 22px;
+    padding: 16px;
+    background-color: #2a0044;
+    color: #e0b3ff;
+    text-shadow: 0 0 5px #c084fc;
+    border-bottom: 1px solid #8f00ff;
+}

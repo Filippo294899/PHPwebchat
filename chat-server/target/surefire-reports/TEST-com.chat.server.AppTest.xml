@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.chat.server.AppTest" time="0.023" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\detto\Desktop\capolavoro\chat-server\target\test-classes;C:\Users\detto\Desktop\capolavoro\chat-server\target\classes;C:\Users\detto\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\detto\.m2\repository\com\sparkjava\spark-core\2.9.4\spark-core-2.9.4.jar;C:\Users\detto\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-server\9.4.48.v20220622\jetty-server-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-http\9.4.48.v20220622\jetty-http-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-util\9.4.48.v20220622\jetty-util-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-io\9.4.48.v20220622\jetty-io-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.48.v20220622\jetty-webapp-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.48.v20220622\jetty-xml-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.48.v20220622\jetty-servlet-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-security\9.4.48.v20220622\jetty-security-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.4.48.v20220622\jetty-util-ajax-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\websocket\websocket-server\9.4.48.v20220622\websocket-server-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.48.v20220622\websocket-common-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.48.v20220622\websocket-client-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-client\9.4.48.v20220622\jetty-client-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\websocket\websocket-servlet\9.4.48.v20220622\websocket-servlet-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.48.v20220622\websocket-api-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Rome"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="c:\program files\java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\detto\AppData\Local\Temp\surefire5226417577894951542\surefirebooter-20250501123512531_3.jar C:\Users\detto\AppData\Local\Temp\surefire5226417577894951542 2025-05-01T12-35-12_472-jvmRun1 surefire-20250501123512531_1tmp surefire_0-20250501123512531_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\detto\Desktop\capolavoro\chat-server\target\test-classes;C:\Users\detto\Desktop\capolavoro\chat-server\target\classes;C:\Users\detto\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\detto\.m2\repository\com\sparkjava\spark-core\2.9.4\spark-core-2.9.4.jar;C:\Users\detto\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-server\9.4.48.v20220622\jetty-server-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-http\9.4.48.v20220622\jetty-http-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-util\9.4.48.v20220622\jetty-util-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-io\9.4.48.v20220622\jetty-io-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.48.v20220622\jetty-webapp-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.48.v20220622\jetty-xml-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.48.v20220622\jetty-servlet-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-security\9.4.48.v20220622\jetty-security-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.4.48.v20220622\jetty-util-ajax-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\websocket\websocket-server\9.4.48.v20220622\websocket-server-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.48.v20220622\websocket-common-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.48.v20220622\websocket-client-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\jetty-client\9.4.48.v20220622\jetty-client-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\websocket\websocket-servlet\9.4.48.v20220622\websocket-servlet-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.48.v20220622\websocket-api-9.4.48.v20220622.jar;C:\Users\detto\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\detto"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="c:\program files\java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\detto\Desktop\capolavoro\chat-server"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\detto\AppData\Local\Temp\surefire5226417577894951542\surefirebooter-20250501123512531_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="detto"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\detto\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\detto\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="C:\Users\detto\Desktop\capolavoro\chat-server"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="c:\program files\java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\devkitPro\msys2\usr\bin;C:\tools\ruby34\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\OpenLogic\jre-8.0.432.06-hotspot\bin;C:\Program Files\OpenLogic\jdk-8.0.432.06-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Mullvad VPN\resources;C:\Program Files\Lua;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\starship\bin\;C:\Program Files (x86)\PowerShell\7-preview\preview;C:\Program Files\PowerShell\7\;C:\Program Files\Git\cmd;C:\Program Files (x86)\ZeroTier\One\;C:\gradle\gradle-8.13\bin;C:\Users\detto\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\detto\AppData\Local\Programs\Python\Python39\;C:\Users\detto\.cargo\bin;c:\jruby-9.4.9.0\bin;c:\program files\java\jdk-23\bin;C:\Users\detto\AppData\Local\Programs\Python\Launcher\;C:\Users\detto\AppData\Local\Microsoft\WindowsApps;C:\Users\detto\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\detto\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\detto\.dotnet\tools;C:\Users\detto\AppData\Local\GitHubDesktop\bin;C:\Users\detto\AppData\Local\Programs\Ollama;C:\Users\detto\AppData\Roaming\npm;C:\Users\detto\.bun\bin;C:\Users\detto\go\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\flutter\bin;C:\Users\detto\AppData\Local\Android\Sdk;C:\Users\detto\AppData\Local\Android\Sdk\platform-tools;C:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\xampp\php;C:\w64devkit\bin;C:\Users\detto\AppData\Local\Programs\nu\bin\;C:\Users\detto\AppData\Roaming\Composer\vendor\bin;C:\Users\detto\AppData\Local\Programs\Swift\Runtimes\6.0.2\usr\bin\;C:\Users\detto\AppData\Local\Programs\Swift\Toolchains\6.0.2+Asserts\usr\bin\;C:\Users\detto\AppData\Local\Programs\Swift\Tools\6.0.2\;C:\Users\detto\AppData\Local\spicetify;C:\Program Files\JetBrains\JetBrains Rider 2024.3.7\bin;;C:\Users\detto\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testApp" classname="com.chat.server.AppTest" time="0.002"/>
+</testsuite>
